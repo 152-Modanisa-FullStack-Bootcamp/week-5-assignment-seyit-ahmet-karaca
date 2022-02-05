@@ -17,4 +17,11 @@ go test -v ./...
 go test -coverprofile=cover.txt ./...
 go tool cover -html=cover.txt -o cover.html
 ```
+
+### Test Coverage in windows
+```
+go test -coverprofile cover.txt ./...
+go tool cover -html cover.txt -o cover.html
+```
+
 Open `cover.html` file to see coverage report.
